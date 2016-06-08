@@ -1,0 +1,12 @@
+crud_user:
+    resource: "@CrudBundle/Controller/UserController.php"
+    type:     annotation
+
+crud:
+    resource: "@CrudBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
